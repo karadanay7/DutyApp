@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "z03vmVVvQyEzITUvu+FgbQTgtMvrpAE7+Mp6FGPauKE=",
+  "Source": "DutyApp.WebAPI",
+  "BasePath": "_content/DutyApp.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

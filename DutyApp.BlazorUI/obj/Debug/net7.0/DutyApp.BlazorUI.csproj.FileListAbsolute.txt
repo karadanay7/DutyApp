@@ -1,0 +1,7 @@
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.AssemblyInfoInputs.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.AssemblyInfo.cs
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.csproj.CoreCompileInputs.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.MvcApplicationPartsAssemblyInfo.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.RazorAssemblyInfo.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.BlazorUI/obj/Debug/net7.0/DutyApp.BlazorUI.RazorAssemblyInfo.cs

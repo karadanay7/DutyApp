@@ -1,0 +1,12 @@
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/bin/Debug/net8.0/DutyApp.Domain.deps.json
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/bin/Debug/net8.0/DutyApp.Domain.dll
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/bin/Debug/net8.0/DutyApp.Domain.pdb
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.csproj.AssemblyReference.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.AssemblyInfoInputs.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.AssemblyInfo.cs
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.csproj.CoreCompileInputs.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.dll
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/refint/DutyApp.Domain.dll
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.pdb
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/ref/DutyApp.Domain.dll
