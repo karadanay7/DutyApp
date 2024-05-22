@@ -2,30 +2,21 @@
   <MonoDevelop.Ide.Workbench ActiveDocument="DutyApp.BlazorUI/Pages/Tasks.razor">
     <Files>
       <File FileName="DutyApp.BlazorUI/DutyApp.BlazorUI.csproj" />
-      <File FileName="DutyApp.WebAPI/Controllers/TaskController.cs" Line="64" Column="1" />
+      <File FileName="DutyApp.WebAPI/Controllers/TaskController.cs" />
       <File FileName="DutyApp.BlazorUI/Program.cs" />
-      <File FileName="DutyApp.BlazorUI/Pages/Groups.razor" Line="46" Column="6" />
-      <File FileName="DutyApp.BlazorUI/Pages/Index.razor" Line="2" Column="1" />
+      <File FileName="DutyApp.BlazorUI/Pages/Groups.razor" />
+      <File FileName="DutyApp.BlazorUI/Pages/Index.razor" />
       <File FileName="DutyApp.BlazorUI/Pages/Tasks.razor" Line="57" Column="1" />
-      <File FileName="DutyApp.Application/Services/TaskService.cs" Line="1" Column="1" />
+      <File FileName="DutyApp.Application/Services/TaskService.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DutyApp" expanded="True">
-            <Node name="DutyApp.Application" expanded="True">
-              <Node name="DTOs" expanded="True" />
-              <Node name="Services" expanded="True" />
-            </Node>
-            <Node name="DutyApp.BlazorUI" expanded="True">
+            <Node name="DutyApp.Domain" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Pages" expanded="True">
-                <Node name="Tasks.razor" selected="True" />
-              </Node>
-              <Node name="wwwroot" expanded="True" />
             </Node>
             <Node name="DutyApp.Persistence" expanded="True">
               <Node name="Context" expanded="True" />

@@ -1,0 +1,53 @@
+﻿@page "/login"
+@using Microsoft.AspNetCore.Identity
+@using System.ComponentModel.DataAnnotations
+@inject SignInManager<IdentityUser> SignInManager
+@inject NavigationManager NavigationManager
+
+<h3>Login</h3>
+
+<EditForm Model="@loginModel" OnValidSubmit="@LoginUser">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Email</label>
+        <InputText @bind-Value="loginModel.Email" />
+        <ValidationMessage For="@(() => loginModel.Email)" />
+    </div>
+    <div>
+        <label>Password</label>
+        <InputText @bind-Value="loginModel.Password" type="password" />
+        <ValidationMessage For="@(() => loginModel.Password)" />
+    </div>
+    <button type="submit">Login</button>
+</EditForm>
+
+@code {
+    private LoginModel loginModel = new LoginModel();
+
+    private async Task LoginUser()
+    {
+        var result = await SignInManager.PasswordSignInAsync(loginModel.Email, loginModel.Password, false, false);
+
+        if (result.Succeeded)
+        {
+            NavigationManager.NavigateTo("/profile");
+        }
+        else
+        {
+            // Handle login failure
+        }
+    }
+
+    public class LoginModel
+    {
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+    }
+}

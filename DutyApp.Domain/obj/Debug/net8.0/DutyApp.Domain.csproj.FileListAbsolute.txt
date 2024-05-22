@@ -6,6 +6,7 @@
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.AssemblyInfoInputs.cache
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.AssemblyInfo.cs
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.csproj.CoreCompileInputs.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.sourcelink.json
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.dll
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/refint/DutyApp.Domain.dll
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Domain/obj/Debug/net8.0/DutyApp.Domain.pdb

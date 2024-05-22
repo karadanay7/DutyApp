@@ -36,6 +36,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,36 +107,36 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.AspNetCore.Components.WebAssembly": {
+            "Microsoft.AspNetCore.Components.Authorization": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.5, )"
             },
-            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Components.WebAssembly.Authentication": {
               "target": "Package",
-              "version": "[8.0.4, )"
+              "version": "[8.0.5, )"
             },
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.4, )",
-              "autoReferenced": true
+              "version": "[8.0.5, )"
             },
-            "Microsoft.NET.Sdk.WebAssembly.Pack": {
-              "suppressParent": "All",
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[8.0.4, )",
-              "autoReferenced": true
+              "version": "[8.0.5, )"
             },
-            "Sotsera.Blazor.Toaster": {
+            "Microsoft.AspNetCore.Identity.UI": {
               "target": "Package",
-              "version": "[3.0.0, )"
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
@@ -145,23 +150,15 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[8.0.4, 8.0.4]"
-            }
-          ],
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
           "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "browser-wasm": {
-          "#import": []
         }
       }
     },
@@ -193,6 +190,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -201,7 +203,7 @@
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0-preview.3.24172.4, )"
+              "version": "[8.0.5, )"
             }
           },
           "imports": [
@@ -259,21 +261,24 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
-            "Microsoft.EntityFrameworkCore.Design": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Microsoft.EntityFrameworkCore": {
               "target": "Package",
-              "version": "[9.0.0-preview.3.24172.4, )"
+              "version": "[8.0.5, )"
             },
-            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
-              "version": "[9.0.0-preview.3, )"
+              "version": "[8.0.5, )"
             }
           },
           "imports": [

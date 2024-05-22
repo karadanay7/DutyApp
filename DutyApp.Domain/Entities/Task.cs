@@ -1,7 +1,7 @@
-namespace DutyApp.Domain.Entities
+﻿namespace DutyApp.Domain;
+
+public class Task
 {
-  public class Task
-  {
     public Guid Id { get; set; }
     public string Title { get; set; }
     public string Description { get; set; }
@@ -10,5 +10,4 @@ namespace DutyApp.Domain.Entities
     public Group Group { get; set; }
     public Guid CreatorId { get; set; }
     public User Creator { get; set; }
-  }
 }

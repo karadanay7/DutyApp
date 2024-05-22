@@ -1,0 +1,59 @@
+﻿@page "/register"
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+@inject UserManager<IdentityUser> UserManager
+@inject NavigationManager NavigationManager
+@using System.ComponentModel.DataAnnotations
+
+<h3>Register</h3>
+
+<EditForm Model="@registerModel" OnValidSubmit="@RegisterUser">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div>
+        <label>Email</label>
+        <InputText @bind-Value="registerModel.Email" />
+        <ValidationMessage For="@(() => registerModel.Email)" />∆
+    </div>
+    <div>
+        <label>Password</label>
+        <InputText @bind-Value="registerModel.Password" type="password" />
+        <ValidationMessage For="@(() => registerModel.Password)" />
+    </div>
+    <button type="submit">Register</button>
+</EditForm>
+
+@code {
+    private RegisterModel registerModel = new RegisterModel();
+
+    private async Task RegisterUser()
+    {
+        var user = new IdentityUser { UserName = registerModel.Email, Email = registerModel.Email };
+        var result = await UserManager.CreateAsync(user, registerModel.Password);
+
+        if (result.Succeeded)
+        {
+            NavigationManager.NavigateTo("/login");
+        }
+        else
+        {
+            foreach (var error in result.Errors)
+            {
+                // Handle errors (e.g., show error messages)
+            }
+        }
+    }
+
+    public class RegisterModel
+    {
+        [Required]
+        [EmailAddress]
+        public string Email { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+    }
+}

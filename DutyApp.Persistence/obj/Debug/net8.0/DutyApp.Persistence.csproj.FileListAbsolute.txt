@@ -1,5 +1,4 @@
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/bin/Debug/net8.0/DutyApp.Persistence.deps.json
-/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/bin/Debug/net8.0/DutyApp.Persistence.runtimeconfig.json
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/bin/Debug/net8.0/DutyApp.Persistence.dll
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/bin/Debug/net8.0/DutyApp.Persistence.pdb
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/bin/Debug/net8.0/DutyApp.Application.dll
@@ -11,9 +10,9 @@
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.AssemblyInfoInputs.cache
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.AssemblyInfo.cs
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.csproj.CoreCompileInputs.cache
+/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.sourcelink.json
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp..99D0C66D.Up2Date
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.dll
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/refint/DutyApp.Persistence.dll
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.pdb
-/Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/DutyApp.Persistence.genruntimeconfig.cache
 /Users/aysegulkaradan/Projects/DutyApp/DutyApp.Persistence/obj/Debug/net8.0/ref/DutyApp.Persistence.dll
